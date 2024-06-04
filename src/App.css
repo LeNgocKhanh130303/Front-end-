@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  background-color: #eee;
+}
+
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+.backgroup{
+  width: 3000px;
+  max-width: 100%;
+}
+.divines{
+  max-width: 100%;
+  width: 150px;
+  height: 30px;
+ ;
+}
+.span{
+  display: inline-block;
+  transform: translateX(-40px); /* Di chuyển font chữ qua trái 10px */
+}
+.span1{
+  display: inline-block;
+  transform: translateX(20px); /* Di chuyển font chữ qua trái 10px */
+
+}
+.momo{
+ max-width: 100%;
+ width: 350px;
+ height: 45px;
+ /* background-color: #ae2070; */
+ ;
+
+}
+.momoimg{
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+}
+.trash{
+
+  display: inline-block;
+  transform: translateX(270px); /* Di chuyển font chữ qua trái 10px */
+  color: red;
+}
+.hr{
+width: 800px;
+}

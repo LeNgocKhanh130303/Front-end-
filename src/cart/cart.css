@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.read-the-docs {
+  color: #888;
+}
+.small{
+
+color: black;
+}
+.divines{
+  max-width: 100%;
+  width: 150px;
+  height: 30px;
+ ;
+}
+.span{
+  display: inline-block;
+  transform: translateX(-40px); /* Di chuyển font chữ qua trái 10px */
+}
+.span1{
+  display: inline-block;
+  transform: translateX(20px); /* Di chuyển font chữ qua trái 10px */
+
+}
+.momo{
+ max-width: 100%;
+ width: 350px;
+ height: 45px;
+ /* background-color: #ae2070; */
+ ;
+
+}
+.momoimg{
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+}
+.trash{
+
+  display: inline-block;
+  transform: translateX(270px); /* Di chuyển font chữ qua trái 10px */
+  color: red;
+}
+.hr{
+width: 800px;
+}
+.custom-button {
+  background-color: #ae2070;
+  color: white;
+  /* Thêm các thuộc tính CSS khác tùy chỉnh ở đây nếu cần */
+}
+
+.custom-button:hover {
+  background-color: #ae2070; /* Giữ nguyên màu nền khi hover */
+}
