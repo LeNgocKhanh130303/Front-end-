@@ -1,3 +1,12 @@
+
+
+#root {
+  max-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
 @media (min-width: 1280px) {
   .carousel-container {
     width: 100vw;
@@ -72,7 +81,6 @@ body{
   padding: 20px; /* Khoảng cách xung quanh */
   border-radius: 10px; /* Bo góc */
   color: #fff; /* Đặt màu chữ trắng để dễ đọc trên nền */
-  background-color: #4c4c50;
 }
 
 .custom-bg .card {
@@ -82,7 +90,6 @@ body{
   border: none; /* Loại bỏ viền thẻ */
 }
 .card-body {
-  background-color:#4c4c50; /* Màu nền của thẻ */
 
   border-radius: 10px; /* Bo góc */
   padding: 10px; /* Khoảng cách xung quanh */

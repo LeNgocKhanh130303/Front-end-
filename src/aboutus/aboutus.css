@@ -1,0 +1,119 @@
+.logo {
+  max-width: 100%; /* Ảnh sẽ không vượt quá kích thước của container cha */
+  height: auto; /* Đảm bảo tỷ lệ hình ảnh được duy trì khi thay đổi kích thước */
+  width: 300px;
+  margin-top: 0; /* Loại bỏ khoảng cách từ đầu dòng */
+  margin-bottom: 10px; /* Thêm một khoảng cách dưới ảnh */
+  
+  
+}
+
+.online {
+  color: green; /* Màu cho văn bản online */
+  font-size: 20px;
+  
+
+}
+
+.offline {
+  color: rgb(26, 65, 156); /* Màu cho văn bản offline */
+  
+}
+
+
+/* CSS cho số 34,000 */
+.ml-2 {
+  margin-left: 5px; /* Khoảng cách từ biểu tượng đến số */
+  font-size: 20px; /* Kích thước của số */
+  color: white;
+}
+/* CSS to center align images */
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Assuming you have CSS classes defined for the 'title-holder' and 'browse' styles */
+
+/* CSS for title-holder */
+.title-holder {
+  text-align: center; /* Center align the content */
+  margin-top: 50px; /* Adjust margin top as needed */
+  color: white;
+}
+
+/* CSS for browse link */
+.browse {
+  text-decoration: underline; /* Underline the link */
+  cursor: pointer; /* Change cursor to pointer */
+  color: rgb(49, 85, 205);
+}
+
+.learnAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnabout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learnabout > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnabout > div > div {
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa các cột */
+}
+.learnabout img {
+  max-width: 100%;
+  height: auto;
+}
+.learnAbout {
+  color: #fff; /* Đặt màu chữ là màu trắng */
+}
+
+.title-holder {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.feature {
+  padding: 20px;
+  text-align: center;
+}
+
+.icon {
+  max-width: 100px; /* Giảm kích thước của biểu tượng */
+  height: auto;
+}
+
+
+
+.feature {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff; /* Màu chữ trắng */
+}
+
+.icon {
+  max-width: 100px; /* Giảm kích thước của biểu tượng */
+  height: auto;
+  filter: invert(100%); /* Đảo ngược màu của biểu tượng để làm nổi bật trên nền trắng */
+}
+.white-text {
+  color: white;
+}
+
+.logo {
+  filter: brightness(0) invert(1); /* Đảo ngược màu sắc của hình ảnh để chuyển nó thành màu trắng */
+}
