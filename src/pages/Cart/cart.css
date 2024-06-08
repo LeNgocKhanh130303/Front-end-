@@ -1,0 +1,45 @@
+.custom-bg {
+  background-image: url('https://wegame.gtimg.com/g.55555-r.c4663/wukong/assets/feature-game-pc-01.BNS-F04C.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+body{
+
+  background-image: url('https://wegame.gtimg.com/g.55555-r.c4663/wukong/assets/feature-game-pc-01.BNS-F04C.jpg');
+
+
+}
+.mt-n2 {
+  margin-top: -2rem; /* Đẩy lên cao hơn 0.2rem */
+}
+
+.divines {
+  width: 30px; 
+}
+
+.span,
+.span1 {
+  font-size: 0.9rem;
+}
+
+.btn-group {
+  margin-left: 10px; /* Khoảng cách giữa nút tăng giảm số lượng và tiêu đề */
+}
+
+.custom-button {
+  background-color: #ff4081;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #ff4081;
+}
+
+
+.item{
+  width: 250px; height: 140px;
+
+}
+
