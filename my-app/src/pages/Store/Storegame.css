@@ -1,0 +1,247 @@
+
+#root {
+  max-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .carousel-container {
+    margin-top: -20px;
+    width: 80vw;
+    margin-left: calc((100% - 1280px) / 2);
+    margin-right: calc((100% - 1280px) / 2);
+  }
+}
+ousel-full-screen {
+  height: 50vh; /* Chiều cao của Carousel đầy màn hình ở 100vh*/
+}
+
+.carousel-full-screen .carousel-item {
+  height: 50vh; /* Chiều cao của từng mục trong Carousel ở 100vh*/
+}
+
+.carousel-full-screen .carousel-item img {
+  object-fit: cover; 
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+body{
+  /* background-color: rgb(255, 255, 255);
+   */
+ background-color: white;
+   
+
+
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+ 
+
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+  
+  /* background-image: url('https://wallpapers.com/images/high/counter-terrorist-4k-cs-go-2noq7zoc1n5i5beo.webp'); Đặt ảnh nền */
+}
+
+.panel h3 {
+  font-size: 20px;
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 1;
+}
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+
+
+
+
+.custom-link-button {
+  text-decoration: none; /* Loại bỏ gạch chân mặc định */
+  color: #007bff; /* Màu chữ */
+  font-weight: bold;
+}
+.custom-bg {
+    /* background-image: url('https://wegame.gtimg.com/g.2000797-r.57462/info/242ae450d15424fece0b1443f6d7b669.jpg/1000'); Đặt ảnh nền */
+  background-size: cover; /* Đảm bảo ảnh nền phủ kín */
+  background-position: center; /* Đặt ảnh nền ở giữa */
+  padding: 20px; /* Khoảng cách xung quanh */
+  border-radius: 10px; /* Bo góc */
+  color: #fff; /* Đặt màu chữ trắng để dễ đọc trên nền */
+ 
+}
+
+.custom-bg .card {
+  border: none; /* Loại bỏ viền của thẻ */
+  border-radius: 10px; /* Bo góc của thẻ */
+  background-color: transparent; /* Làm cho nền thẻ trong suốt */
+  border: none; /* Loại bỏ viền thẻ */
+}
+.card-body {
+  
+
+  border-radius: 10px; /* Bo góc */
+  padding: 10px; /* Khoảng cách xung quanh */
+}
+.product{
+max-width: 100%;
+height: 160px;
+transition: transform 0.3s ease;
+
+}
+.product:hover {
+  transform: scale(1.1);
+}
+
+.card h5 {
+  color: #111111; /* Đặt màu chữ trắng cho các liên kết */
+}
+
+.card p {
+  color: #000000; /* Đặt màu chữ trắng cho đoạn văn */
+}
+.custom-bg-sale {
+
+  background-size: cover; /* Đảm bảo ảnh nền phủ kín */
+  background-position: center; /* Đặt ảnh nền ở giữa */
+  padding: 20px; /* Khoảng cách xung quanh */
+  border-radius: 10px; /* Bo góc */
+  color: #9a1f1f; /* Đặt màu chữ trắng để dễ đọc trên nền */
+  border: none; /* Loại bỏ viền thẻ */
+
+
+}
+.custom-bg-sale .card-body { 
+  border-radius: 10px; /* Bo góc */
+  padding: 10px; /* Khoảng cách xung quanh */
+}
+
+.custom-bg-sale  .card h5 {
+  color: #000000; /* Đặt màu chữ trắng cho các liên kết */
+}
+
+.custom-bg-sale .card p {
+  color: #000000; /* Đặt màu chữ trắng cho đoạn văn */
+}
+/* .carousel-container {
+  background-color: rgb(78, 142, 170);
+  padding: 20px; 
+  border-radius:  20px;
+
+  
+} */
+
+.carousel-img {
+  /* Inherit the black background from the container */
+  background-color: inherit;
+  border-radius: 10px;
+}
+.custom-background {
+  font-size: 15px;
+  background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(12,12,231,1) 0%, rgba(203,60,39,1) 100%, rgba(21,22,213,1) 100%);
+height: 80px;
+}
+.nav-item  a:hover{
+
+color: white;
+}
+.font{
+  color: rgb(255, 251, 251);
+  font-size: 20px;
+
+
+}
+.custom-background {
+
+  border-radius: 10px;
+ 
+}
+.buttonhot {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttonhot:hover {
+  background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+  transform: scale(1.1);
+}
+
+
+.text-start {
+  text-align: left !important;
+}
+
+
+.text-end {
+  text-align: right !important;
+}
+
+
+
+/* Đặt màu chữ trắng */
+.text-white {
+  color: white;
+}
+.zoom-card {
+  transition: transform 0.3s ease;
+}
+
+.zoom-card:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.product-container {
+  position: relative;
+}
+
+.badge-discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.price-original {
+  color: #fff; /* Màu chữ trắng */
+}
+
+.price-discount {
+  color: #dc3545; /* Màu đỏ */
+}
+.price-original {
+  color: #fff; /* Màu chữ trắng */
+  margin-right: 10px; /* Khoảng cách bên phải */
+}
+.hover-content {
+float: left;
+margin-left: 10px;
+
+}

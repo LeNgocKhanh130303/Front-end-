@@ -1,0 +1,44 @@
+.topFooter {
+    width: 100%;
+    height: 70px;
+
+}
+
+
+#imgthanhtoan1ft
+{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.ttkhac {
+    font-size: 13px;
+   
+    
+}
+.mainFooter{
+    background-color: rgb(243, 244,246);
+    height: 260px;
+}
+
+#imgfooterfb
+{
+    margin-left: 11px;
+    width: 27px;
+    height: 27px;
+    margin-top: 10px;
+}
+.footerCot1>a,.footerCot2>a,.footerCot3 >a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footerCot1>a:hover,.footerCot2>a:hover,.footerCot3 >a:hover
+{
+    text-decoration: underline;
+   
+}

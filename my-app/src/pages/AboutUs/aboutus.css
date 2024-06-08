@@ -1,0 +1,120 @@
+.logo {
+  max-width: 100%; 
+  width: 300px;
+  margin-top: 0; 
+  margin-bottom: 10px; 
+
+
+  
+}
+
+.online {
+  color: green; 
+  font-size: 20px;
+  
+
+}
+
+.offline {
+  color: rgb(26, 65, 156); 
+  
+}
+
+
+
+.ml-2 {
+  margin-left: 5px; 
+  font-size: 20px; 
+  color: white;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+
+
+.title-holder {
+  text-align: center; 
+  margin-top: 50px; 
+  color: white;
+}
+
+/* CSS for browse link */
+.browse {
+  text-decoration: underline; 
+  cursor: pointer; 
+  color: rgb(49, 85, 205);
+}
+
+.learnAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnabout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learnabout > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnabout > div > div {
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa các cột */
+}
+.learnabout img {
+  max-width: 100%;
+  height: auto;
+}
+.learnAbout {
+  color: #fff; /* Đặt màu chữ là màu trắng */
+}
+
+.title-holder {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.feature {
+  padding: 20px;
+  text-align: center;
+}
+
+.icon {
+  max-width: 100px; /* Giảm kích thước của biểu tượng */
+  height: auto;
+}
+
+
+
+.feature {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff; /* Màu chữ trắng */
+}
+
+.icon {
+  max-width: 100px; /* Giảm kích thước của biểu tượng */
+  height: auto;
+  filter: invert(100%); /* Đảo ngược màu của biểu tượng để làm nổi bật trên nền trắng */
+}
+.white-text {
+  color: white;
+}
+
+.logo {
+  filter: brightness(0) invert(1); /* Đảo ngược màu sắc của hình ảnh để chuyển nó thành màu trắng */
+}

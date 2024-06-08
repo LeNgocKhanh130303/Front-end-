@@ -1,0 +1,49 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sevillana&display=swap');
+
+.wrapper{
+    border-radius: 10px;
+}
+
+.container
+{
+    font-family: "Lora", serif;
+    
+    
+}
+.content {
+    padding: 10px;
+    padding-top: 70px; /* Offset to accommodate fixed header */
+    margin-left: 1%;
+
+}
+.row {
+    margin-top: 20px;
+}
+
+p {
+    max-height: 40px;
+}
+
+.content-2>img {
+    width: 100%;
+}
+
+.content-2>.chuthich {
+    font-size: small;
+    margin-left: 35%;
+    color: gray;
+    
+}
+
+.button-group
+{
+    margin-left: 40%;
+   
+}
+.button-group>.btn-dark
+{
+    margin: 10px;
+}
