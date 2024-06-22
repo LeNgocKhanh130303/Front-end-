@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sevillana&display=swap');
+
+
+
+.wrapper
+{
+    font-family: "Lora", serif;
+}
+
+.topHeader{
+    background-color: rgb(10, 89,204);
+    height: 45px;
+    margin-top:-69px;
+}
+span{
+margin-left: 15px;
+color: white;
+font-size: 16px;
+text-align: center;
+
+}
+span>a{
+    text-decoration: none;
+    color:white;
+}
+
+.topHeader>.container{
+    margin-left: 52%;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.mainHeader
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,236,1) 0%, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.LogoSteam{
+    height: 100px;
+    width: 100px;
+}
+.inputHeader{
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 30px;
+    position: absolute;
+
+}
+
+.thongtinUser{
+    margin-left: 40px;
+    color: white;
+    margin-top:30px;
+}
+.Cart
+{
+    margin-left: 20px;
+    width: 200px;
+    color: white;
+    margin-top: 30px;
+}
+
+.mainHeader2>a
+{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.mainHeader2>path{
+    color: white;
+}
+
+.thongtinthem>a{
+font-size: 14px;
+color: black;
+margin-left: 5px;
+margin-right: 20px;
+text-decoration: none;
+}
+.thongtinthem{
+    margin-left: 350px;
+    margin-top: -35px;
+}
+
